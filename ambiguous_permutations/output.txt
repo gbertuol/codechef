@@ -1,0 +1,2 @@
+ambiguous
+not ambiguous

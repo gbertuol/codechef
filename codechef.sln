@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "small_factorials", "small_factorials\small_factorials.vcxproj", "{6FDDA388-87D8-48C7-A9CE-2935186FDA86}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "holes_in_text", "holes_in_text\holes_in_text.vcxproj", "{D646B939-15AC-41DC-A877-BB711566FB35}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "turbo_sort", "turbo_sort\turbo_sort.vcxproj", "{6F6353A3-5C84-42A7-BA86-23AF6418B363}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "sum_triangle", "sum_triangle\sum_triangle.vcxproj", "{68856493-229E-4B4A-AEF0-F63A2D817841}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "transform_the_expression", "transform_the_expression\transform_the_expression.vcxproj", "{F9D32848-3435-4060-8DD4-81E934914779}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ambiguous_permutations", "ambiguous_permutations\ambiguous_permutations.vcxproj", "{92E01F73-D3D6-4C1D-8062-9709ECEBB1E7}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "n_zeros", "n_zeros\n_zeros.vcxproj", "{124223EE-6BAE-46FF-BE18-FD8F2419CF50}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6FDDA388-87D8-48C7-A9CE-2935186FDA86}.Debug|Win32.ActiveCfg = Debug|Win32
+		{6FDDA388-87D8-48C7-A9CE-2935186FDA86}.Debug|Win32.Build.0 = Debug|Win32
+		{6FDDA388-87D8-48C7-A9CE-2935186FDA86}.Release|Win32.ActiveCfg = Release|Win32
+		{6FDDA388-87D8-48C7-A9CE-2935186FDA86}.Release|Win32.Build.0 = Release|Win32
+		{D646B939-15AC-41DC-A877-BB711566FB35}.Debug|Win32.ActiveCfg = Debug|Win32
+		{D646B939-15AC-41DC-A877-BB711566FB35}.Debug|Win32.Build.0 = Debug|Win32
+		{D646B939-15AC-41DC-A877-BB711566FB35}.Release|Win32.ActiveCfg = Release|Win32
+		{D646B939-15AC-41DC-A877-BB711566FB35}.Release|Win32.Build.0 = Release|Win32
+		{6F6353A3-5C84-42A7-BA86-23AF6418B363}.Debug|Win32.ActiveCfg = Debug|Win32
+		{6F6353A3-5C84-42A7-BA86-23AF6418B363}.Debug|Win32.Build.0 = Debug|Win32
+		{6F6353A3-5C84-42A7-BA86-23AF6418B363}.Release|Win32.ActiveCfg = Release|Win32
+		{6F6353A3-5C84-42A7-BA86-23AF6418B363}.Release|Win32.Build.0 = Release|Win32
+		{68856493-229E-4B4A-AEF0-F63A2D817841}.Debug|Win32.ActiveCfg = Debug|Win32
+		{68856493-229E-4B4A-AEF0-F63A2D817841}.Debug|Win32.Build.0 = Debug|Win32
+		{68856493-229E-4B4A-AEF0-F63A2D817841}.Release|Win32.ActiveCfg = Release|Win32
+		{68856493-229E-4B4A-AEF0-F63A2D817841}.Release|Win32.Build.0 = Release|Win32
+		{F9D32848-3435-4060-8DD4-81E934914779}.Debug|Win32.ActiveCfg = Debug|Win32
+		{F9D32848-3435-4060-8DD4-81E934914779}.Debug|Win32.Build.0 = Debug|Win32
+		{F9D32848-3435-4060-8DD4-81E934914779}.Release|Win32.ActiveCfg = Release|Win32
+		{F9D32848-3435-4060-8DD4-81E934914779}.Release|Win32.Build.0 = Release|Win32
+		{92E01F73-D3D6-4C1D-8062-9709ECEBB1E7}.Debug|Win32.ActiveCfg = Debug|Win32
+		{92E01F73-D3D6-4C1D-8062-9709ECEBB1E7}.Debug|Win32.Build.0 = Debug|Win32
+		{92E01F73-D3D6-4C1D-8062-9709ECEBB1E7}.Release|Win32.ActiveCfg = Release|Win32
+		{92E01F73-D3D6-4C1D-8062-9709ECEBB1E7}.Release|Win32.Build.0 = Release|Win32
+		{124223EE-6BAE-46FF-BE18-FD8F2419CF50}.Debug|Win32.ActiveCfg = Debug|Win32
+		{124223EE-6BAE-46FF-BE18-FD8F2419CF50}.Debug|Win32.Build.0 = Debug|Win32
+		{124223EE-6BAE-46FF-BE18-FD8F2419CF50}.Release|Win32.ActiveCfg = Release|Win32
+		{124223EE-6BAE-46FF-BE18-FD8F2419CF50}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
