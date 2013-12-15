@@ -35,6 +35,14 @@ public:
         }
     }
 
+    const Node<T>* tail() const
+    {
+        Node<T> *tail = head;
+        while (tail)
+            tail = tail->next;
+        return tail;
+    }
+
     Node<T>* appendToTail(const T &data)
     {
         Node<T> *end = new Node<T>(data);
