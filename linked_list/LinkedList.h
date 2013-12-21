@@ -27,12 +27,22 @@ public:
 
     ~LinkedList()
     {
-        while (head)
+        removeAll();
+    }
+
+    LinkedList<T>(const LinkedList<T> &o)
+    {
+        copyFrom(o);
+    }
+
+    LinkedList<T> operator=(const LinkedList<T> &o)
+    {
+        if (this != &o)
         {
-            Node<T> *next = head->next;
-            delete head;
-            head = next;
+            copyFrom(o);
         }
+
+        return *this;
     }
 
     const Node<T>* tail() const
@@ -113,5 +123,34 @@ public:
             curr = curr->next;
         }
         ostream << std::endl;
+    }
+
+    void copyFrom(const LinkedList<T> &other)
+    {
+        removeAll();
+        const Node<T> *ptr = other.head;
+
+        while (ptr)
+        {
+            appendToTail(ptr->data);
+            ptr = ptr->next;
+        }
+    }
+
+    void removeAll()
+    {
+        while (head)
+        {
+            Node<T> *next = head->next;
+            delete head;
+            head = next;
+        }
+    }
+
+    size_t size() const
+    {
+        size_t size = 0;
+        for (const Node<T> *ptr = head; ptr; ++size, ptr = ptr->next);
+        return size;
     }
 };

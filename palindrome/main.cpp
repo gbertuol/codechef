@@ -18,8 +18,8 @@ bool _isPalindrome(int x, int &y)
     {
         return false;
     }
-
 }
+
 bool isPalindrome(int x)
 {
     return _isPalindrome(x, x);
