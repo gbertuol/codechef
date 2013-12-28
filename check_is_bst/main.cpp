@@ -7,14 +7,16 @@ bool isBST(Node<T> *node, T min, T max)
 {
     if (!node)
         return true;
-    
+
     if (node->data < min || node->data >= max)
         return false;
 
     if (!isBST(node->left, min, node->data))
         return false;
+
     if (!isBST(node->right, node->data, max))
         return false;
+
     return true;
 }
 
